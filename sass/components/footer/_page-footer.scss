@@ -1,0 +1,21 @@
+.page-footer {
+    background: #2f303a;
+  }
+.page-footer .container {
+    display: flex;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
+}
+.footer-title {
+    margin-bottom: 20px;
+    margin-top: 0px;
+  
+    color: $white-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }

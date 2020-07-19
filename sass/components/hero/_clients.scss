@@ -1,0 +1,26 @@
+.client-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid $icon-color;
+  border-radius: 4px;
+  fill: $icon-color;
+
+  transition: border-color $cubic,
+    fill $cubic;
+
+    &:hover,
+    &:focus {
+        border-color: $accent;
+        fill: $accent;
+    }
+}
+.client.list {
+  display: flex;
+  justify-content: space-between;
+}
+.client-item:not(:last-child) {
+  margin-right: 30px;
+}

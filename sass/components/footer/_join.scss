@@ -1,0 +1,19 @@
+.join {
+    margin-right: 94px;
+    .list {
+        display: flex;
+        justify-content: space-between;
+      }
+  }
+.footer.social-links-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    fill: $white-color;
+    transition: background-color $cubic;
+    
+    &:hover,
+    &:focus {
+    background-color: $accent;
+    }
+}
+  
